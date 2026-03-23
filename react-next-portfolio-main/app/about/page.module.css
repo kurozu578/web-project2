@@ -1,0 +1,124 @@
+.about {
+    background-color: #FFF6EE;
+    padding: 40px 20px;
+    border-radius: 12px;
+    text-align: center;
+    max-width: 600px;
+    margin: 20px auto;
+    border: 3px solid white; /* 白い細い線の枠 */
+}
+  
+  .aboutTitle {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #664B4F;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .aboutTitle::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 3px;
+    background-color: #DC9F95;
+    margin: 10px auto 0;
+  }
+  
+  .aboutText p {
+    font-size: 1rem;
+    color: #664B4F;
+    margin-bottom: 10px;
+  }
+  
+  .name {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .study {
+    font-size: 1rem;
+    font-style: italic;
+  }
+  
+  .skills {
+    font-size: 1rem;
+    color: #DC9F95;
+    font-weight: bold;
+  }
+
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .title::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 3px;
+    background-color: #DC9F95;
+    margin: 10px auto 0;
+  }
+
+  .text {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;  /* 画像とテキストを縦並びに */
+    align-items: center;  /* 中央揃え */
+    gap: 20px;  /* 要素間のスペース */
+    margin-bottom: 80px;
+    text-align: center;  /* すべてのテキストを中央揃えに */
+}
+
+
+
+.image {
+    width: 240px;
+    height: auto;
+    border-radius: var(--border-radius);
+}
+
+.workTitle {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.workTitle::after {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 3px;
+  background-color: #DC9F95;
+  margin: 10px auto ;
+}
+
+
+.profile {
+    font-size: 0.9rem;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid var(--color-border);
+    padding-top: 40px;
+    text-align: center;
+    gap: 24px;
+}
+
+.massage {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.empty {
+    margin-bottom: 40px;
+}
